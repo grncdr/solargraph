@@ -13,7 +13,6 @@ module Solargraph
         # @param word [String]
         # @param arguments [Array<Chain>]
         # @param with_block [Boolean] True if the chain is inside a block
-        # @param head [Boolean] True if the call is the start of its chain
         def initialize word, arguments = [], with_block = false
           @word = word
           @arguments = arguments
